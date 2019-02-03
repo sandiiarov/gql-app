@@ -6460,7 +6460,12 @@ typedarray@^0.0.6:
   resolved "https://csdisco.jfrog.io/csdisco/api/npm/npm/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@3.3.1, typescript@^3.2.2:
+typescript@3.2.1:
+  version "3.2.1"
+  resolved "https://csdisco.jfrog.io/csdisco/api/npm/npm/typescript/-/typescript-3.2.1.tgz#0b7a04b8cf3868188de914d9568bd030f0c56192"
+  integrity sha1-C3oEuM84aBiN6RTZVovQMPDFYZI=
+
+typescript@^3.2.2:
   version "3.3.1"
   resolved "https://csdisco.jfrog.io/csdisco/api/npm/npm/typescript/-/typescript-3.3.1.tgz#6de14e1db4b8a006ac535e482c8ba018c55f750b"
   integrity sha1-beFOHbS4oAasU15ILIugGMVfdQs=
