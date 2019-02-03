@@ -1,5 +1,5 @@
 import React from 'react';
-import { GetUserComponent } from '../../../generated/graphql';
+import { GetUserComponent } from '../../../__generated__/graphql';
 
 interface Props {
   id?: string;
