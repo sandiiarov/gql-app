@@ -1,14 +1,9 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: {
-    index: './src/index.tsx',
-  },
+  entry: './src/index.tsx',
   resolve: {
     extensions: ['.mjs', '.js', '.ts', '.tsx'],
-  },
-  devServer: {
-    historyApiFallback: true,
   },
   module: {
     rules: [
