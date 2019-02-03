@@ -1,5 +1,5 @@
 {
-  "name": "@gql-gateway/app",
+  "name": "gql-app",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
