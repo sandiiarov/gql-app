@@ -767,6 +767,32 @@
   resolved "https://csdisco.jfrog.io/csdisco/api/npm/npm/@types/zen-observable/-/zen-observable-0.8.0.tgz#8b63ab7f1aa5321248aad5ac890a485656dcea4d"
   integrity sha1-i2OrfxqlMhJIqtWsiQpIVlbc6k0=
 
+"@typescript-eslint/eslint-plugin@1.2.0":
+  version "1.2.0"
+  resolved "https://csdisco.jfrog.io/csdisco/api/npm/npm/@typescript-eslint/eslint-plugin/-/eslint-plugin-1.2.0.tgz#a73021a0d5bd1116a88689186844ce4421d52ab0"
+  integrity sha1-pzAhoNW9ERaohokYaETORCHVKrA=
+  dependencies:
+    "@typescript-eslint/parser" "1.2.0"
+    requireindex "^1.2.0"
+    tsutils "^3.7.0"
+
+"@typescript-eslint/parser@1.2.0":
+  version "1.2.0"
+  resolved "https://csdisco.jfrog.io/csdisco/api/npm/npm/@typescript-eslint/parser/-/parser-1.2.0.tgz#256de163b7cb0d79d0388266a5bfb5585bccb1ff"
+  integrity sha1-JW3hY7fLDXnQOIJmpb+1WFvMsf8=
+  dependencies:
+    "@typescript-eslint/typescript-estree" "1.2.0"
+    eslint-scope "^4.0.0"
+    eslint-visitor-keys "^1.0.0"
+
+"@typescript-eslint/typescript-estree@1.2.0":
+  version "1.2.0"
+  resolved "https://csdisco.jfrog.io/csdisco/api/npm/npm/@typescript-eslint/typescript-estree/-/typescript-estree-1.2.0.tgz#d9043a407d5e0f07db2b4a80d86852f7826c34f0"
+  integrity sha1-2QQ6QH1eDwfbK0qA2GhS94JsNPA=
+  dependencies:
+    lodash.unescape "4.0.1"
+    semver "5.5.0"
+
 "@webassemblyjs/ast@1.7.11":
   version "1.7.11"
   resolved "https://csdisco.jfrog.io/csdisco/api/npm/npm/@webassemblyjs/ast/-/ast-1.7.11.tgz#b988582cafbb2b095e8b556526f30c90d057cace"
@@ -2512,14 +2538,6 @@ eslint-plugin-react@7.12.4:
     object.fromentries "^2.0.0"
     prop-types "^15.6.2"
     resolve "^1.9.0"
-
-eslint-plugin-typescript@1.0.0-rc.3:
-  version "1.0.0-rc.3"
-  resolved "https://csdisco.jfrog.io/csdisco/api/npm/npm/eslint-plugin-typescript/-/eslint-plugin-typescript-1.0.0-rc.3.tgz#aa5359248dc6172ee261bc6574b5b540573e9b67"
-  integrity sha1-qlNZJI3GFy7iYbxldLW1QFc+m2c=
-  dependencies:
-    requireindex "^1.2.0"
-    typescript-eslint-parser "21.0.2"
 
 eslint-scope@^4.0.0:
   version "4.0.0"
@@ -6353,10 +6371,17 @@ ts-log@2.1.4:
   resolved "https://csdisco.jfrog.io/csdisco/api/npm/npm/ts-log/-/ts-log-2.1.4.tgz#063c5ad1cbab5d49d258d18015963489fb6fb59a"
   integrity sha1-Bjxa0curXUnSWNGAFZY0iftvtZo=
 
-tslib@1.9.3, tslib@^1.9.0, tslib@^1.9.3:
+tslib@1.9.3, tslib@^1.8.1, tslib@^1.9.0, tslib@^1.9.3:
   version "1.9.3"
   resolved "https://csdisco.jfrog.io/csdisco/api/npm/npm/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
   integrity sha1-1+TdeSRdhUKMTX5IIqeZF5VMooY=
+
+tsutils@^3.7.0:
+  version "3.8.0"
+  resolved "https://csdisco.jfrog.io/csdisco/api/npm/npm/tsutils/-/tsutils-3.8.0.tgz#7a3dbadc88e465596440622b65c04edc8e187ae5"
+  integrity sha1-ej263IjkZVlkQGIrZcBO3I4YeuU=
+  dependencies:
+    tslib "^1.8.1"
 
 tty-browserify@0.0.0:
   version "0.0.0"
@@ -6394,23 +6419,6 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://csdisco.jfrog.io/csdisco/api/npm/npm/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
-
-typescript-eslint-parser@21.0.2:
-  version "21.0.2"
-  resolved "https://csdisco.jfrog.io/csdisco/api/npm/npm/typescript-eslint-parser/-/typescript-eslint-parser-21.0.2.tgz#270af10e4724528677fbcf34ea495284bec3a894"
-  integrity sha1-JwrxDkckUoZ3+8806klShL7DqJQ=
-  dependencies:
-    eslint-scope "^4.0.0"
-    eslint-visitor-keys "^1.0.0"
-    typescript-estree "5.3.0"
-
-typescript-estree@5.3.0:
-  version "5.3.0"
-  resolved "https://csdisco.jfrog.io/csdisco/api/npm/npm/typescript-estree/-/typescript-estree-5.3.0.tgz#fb6c977b5e21073eb16cbdc0338a7f752da99ff5"
-  integrity sha1-+2yXe14hBz6xbL3AM4p/dS2pn/U=
-  dependencies:
-    lodash.unescape "4.0.1"
-    semver "5.5.0"
 
 typescript@3.3.1, typescript@^3.2.2:
   version "3.3.1"
