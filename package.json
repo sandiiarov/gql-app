@@ -13,9 +13,9 @@
     "apollo-client": "2.4.12",
     "apollo-link-http": "1.5.11",
     "graphql": "14.1.1",
-    "react": "16.7.0",
+    "react": "16.8.3",
     "react-apollo": "2.4.1",
-    "react-dom": "16.7.0",
+    "react-dom": "16.8.3",
     "react-hot-loader": "4.6.5"
   },
   "devDependencies": {
